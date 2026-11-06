@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Section A — study resources</title>
+  <meta name="description" content="Notes, assignments, printable answers, tutorials and previous papers for our college section." />
+  <meta name="theme-color" content="#2457c5" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232457c5'/%3E%3Ctext x='16' y='23' font-size='20' font-weight='700' text-anchor='middle' fill='white' font-family='sans-serif'%3EA%3C/text%3E%3C/svg%3E" />
+  <style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#16202f;--muted:#5a6578;--line:#dbe1ec;--brand:#2457c5;--brand-ink:#fff;--soft:#e8eefb;--warn:#fff4dd;--warn-ink:#7a4b00;--exam:#c2410c;--exam-bg:#ffedd5;--ok:#166534;--ok-bg:#dcfce7;--bad:#b42318;--r:12px}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1520;--card:#18202e;--ink:#e8edf6;--muted:#a3aec2;--line:#2b3648;--brand:#7aa2ff;--brand-ink:#0b1220;--soft:#1f2b44;--warn:#3a2c0e;--warn-ink:#ffd98a;--exam:#fdba74;--exam-bg:#42240d;--ok:#86efac;--ok-bg:#12351e;--bad:#fda4af}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-wrap:anywhere}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}main{padding-top:20px;padding-bottom:32px;outline:0}
+h1{font-size:1.7rem;line-height:1.2;margin:.2em 0 .4em}h2{font-size:1.25rem;margin:1.6em 0 .6em}h3{font-size:1.05rem;margin:.2em 0}
+a{color:var(--brand)}.muted{color:var(--muted)}.small{font-size:.875rem}
+.skip{position:absolute;left:-999px;top:0;background:var(--brand);color:var(--brand-ink);padding:8px 12px;z-index:50}.skip:focus{left:8px;top:8px}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:6px}
+.top{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;min-height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none;font-size:1.1rem}
+.mark{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:var(--brand);color:var(--brand-ink)}
+nav{display:none;width:100%;flex-direction:column;padding-bottom:10px}nav.open{display:flex}
+nav a,nav button{display:block;padding:12px 10px;min-height:44px;color:var(--ink);text-decoration:none;border-radius:8px;background:none;border:0;font:inherit;text-align:left;cursor:pointer}
+nav a:hover,nav button:hover{background:var(--soft)}nav a[aria-current=page]{background:var(--soft);color:var(--brand);font-weight:600}
+@media(min-width:960px){#menu{display:none}nav{display:flex!important;flex-direction:row;width:auto;padding:0;flex-wrap:wrap;gap:2px}nav a,nav button{padding:8px 10px;min-height:40px;font-size:.93rem}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-weight:600;cursor:pointer;text-decoration:none}
+.btn:hover{border-color:var(--brand)}.btn.primary{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}.btn.danger{color:var(--bad)}.btn:disabled{opacity:.6;cursor:not-allowed}.btn.sm{min-height:40px;padding:6px 12px;font-size:.9rem}
+.icon-btn{padding:6px 12px;font-size:1.2rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.grid{display:grid;gap:12px;grid-template-columns:1fr}@media(min-width:640px){.grid.cols{grid-template-columns:repeat(2,1fr)}}@media(min-width:960px){.grid.cols{grid-template-columns:repeat(3,1fr)}}
+.link-card{display:block;text-decoration:none;color:var(--ink)}.link-card:hover{border-color:var(--brand)}.link-card strong{display:block}
+.hero{background:linear-gradient(135deg,var(--soft),var(--card));border:1px solid var(--line);border-radius:16px;padding:20px}
+.notice{padding:12px 14px;border-radius:10px;background:var(--warn);color:var(--warn-ink);margin:12px 0}.notice.ok{background:var(--ok-bg);color:var(--ok)}.notice.err{background:#fee4e2;color:var(--bad)}
+@media(prefers-color-scheme:dark){.notice.err{background:#3b1517}}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}.badge{font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--soft);color:var(--brand)}
+.badge.exam{background:var(--exam-bg);color:var(--exam)}.badge.print{background:var(--ok-bg);color:var(--ok)}
+.res.exam{border-left:5px solid var(--exam)}.meta{margin:2px 0;color:var(--muted);font-size:.875rem}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.filters{display:grid;gap:10px;grid-template-columns:1fr;margin:12px 0}@media(min-width:640px){.filters{grid-template-columns:repeat(4,1fr)}.filters .wide{grid-column:1/-1}}
+label{display:block;font-weight:600;font-size:.9rem;margin-bottom:4px}
+input[type=text],input[type=search],input[type=number],select,textarea,input[type=file]{width:100%;min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+textarea{min-height:90px}.check{display:flex;gap:10px;align-items:center;font-weight:500;min-height:44px}.check input{width:22px;height:22px}
+.empty{text-align:center;padding:32px 16px}.progress{height:10px;background:var(--soft);border-radius:99px;overflow:hidden}.progress i{display:block;height:100%;background:var(--brand);width:0}
+.table{display:grid;gap:8px}.trow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.trow .t{flex:1 1 220px;min-width:0}
+dialog{width:min(920px,calc(100vw - 24px));max-height:92vh;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);padding:16px}dialog::backdrop{background:#0008}
+.preview{width:100%;height:70vh;border:1px solid var(--line);border-radius:8px}img.preview{height:auto;max-height:70vh;object-fit:contain}
+#toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);max-width:calc(100vw - 32px);z-index:60}
+#toast div{background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;margin-top:8px;box-shadow:0 4px 16px #0004}
+.center{max-width:440px;margin:40px auto;text-align:center}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+code{background:var(--soft);padding:1px 6px;border-radius:6px;word-break:break-all}
+@media print{.top,.foot,.actions,.filters{display:none}}
+
+</style>
+  
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <div class="wrap row">
+      <a class="brand" href="#/"><span class="mark" aria-hidden="true">A</span> Section A</a>
+      <button id="menu" class="btn icon-btn" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰</button>
+      <nav id="nav" aria-label="Main"></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1"><p class="muted">Loading…</p></main>
+  <footer class="wrap foot"><p class="muted">Section A study resources. Sample items marked [DEMO] or with [BRACKETS] are placeholders, not official material.</p></footer>
+  <dialog id="dlg"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="wrap">Section A needs JavaScript.</p></noscript>
+<script>
+  // Classic (non-module) fallback: if the app never starts, say why instead of showing "Loading…" forever.
+  setTimeout(function () {
+    var m = document.getElementById('main');
+    if (m && m.textContent.trim() === 'Loading…') {
+      m.innerHTML = '<div class="card"><h1>The site could not start</h1><p>Firebase\'s scripts did not load. This happens in preview panes, when the file is opened inside another app, or when you are offline.</p><p>Open the live GitHub Pages link (https://YOURNAME.github.io/REPO/) in Chrome, or run <code>python3 -m http.server 8000</code> and open http://localhost:8000.</p></div>';
+    }
+  }, 6000);
+</script>
+<script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged }
+  from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+import { getFirestore, collection, doc, getDoc, addDoc, updateDoc, deleteDoc, onSnapshot, query, orderBy, limit, serverTimestamp }
+  from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+import { getStorage, ref, uploadBytesResumable, getDownloadURL, deleteObject }
+  from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js';
+
+// ===================== CONFIG (EDIT THIS PART) =====================
+// ===== EDIT THIS FILE =====
+// 1) Paste your Firebase web app config (Firebase console > Project settings > Your apps > Web app).
+//    These values are NOT secret; your security comes from firestore.rules / storage.rules.
+const firebaseConfig = {
+  apiKey: 'YOUR_API_KEY',
+  authDomain: 'YOUR_PROJECT.firebaseapp.com',
+  projectId: 'YOUR_PROJECT',
+  storageBucket: 'YOUR_PROJECT.firebasestorage.app',
+  messagingSenderId: 'YOUR_SENDER_ID',
+  appId: 'YOUR_APP_ID',
+};
+
+const SITE = {
+  collegeName: '[COLLEGE NAME]',
+  maxUploadMb: 20,
+  // Optional: URL of a server function that answers questions (see README "AI helper"). Leave '' for demo mode.
+  aiEndpoint: '',
+};
+
+// 2) Replace these sample subjects with your real ones (slug = short lowercase id, never change it later).
+const SUBJECTS = [
+  { slug: 'subject-1', name: '[SUBJECT 1]' },
+  { slug: 'subject-2', name: '[SUBJECT 2]' },
+  { slug: 'subject-3', name: '[SUBJECT 3]' },
+  { slug: 'mathematics', name: '[MATHEMATICS]', math: true },
+];
+
+const TYPES = [
+  { key: 'notes', label: 'Handwritten notes' },
+  { key: 'assignment', label: 'Assignment' },
+  { key: 'answer', label: 'Answer PDF' },
+  { key: 'tutorial', label: 'Tutorial' },
+  { key: 'paper', label: 'Previous paper' },
+  { key: 'other', label: 'Other' },
+];
+
+const FILE_TYPES = {
+  pdf: 'application/pdf', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp',
+  docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+  pptx: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+  txt: 'text/plain',
+};
+
+// ===================== ERROR DISPLAY (helps debugging) =====================
+function showProblem(msg) {
+  let b = document.getElementById('problem');
+  if (!b) { b = document.createElement('div'); b.id = 'problem'; b.setAttribute('role', 'alert'); b.style.cssText = 'position:fixed;left:8px;right:8px;bottom:8px;z-index:99;background:#b42318;color:#fff;padding:12px 14px;border-radius:10px;font:14px/1.4 system-ui;word-break:break-word'; document.body.append(b); }
+  b.textContent = 'Problem: ' + msg;
+}
+window.addEventListener('error', (e) => showProblem(e.message));
+window.addEventListener('unhandledrejection', (e) => showProblem(e.reason?.code || e.reason?.message || String(e.reason)));
+
+// ===================== FIREBASE =====================
+// Thin wrapper around the Firebase SDK (loaded from Google's CDN, no build step).
+
+
+
+
+
+const isConfigured = !Object.values(firebaseConfig).some((v) => String(v).startsWith('YOUR_'));
+
+let auth, db, storage;
+if (isConfigured) {
+  try {} catch {}
+  const app = initializeApp(firebaseConfig);
+  auth = getAuth(app);
+  db = getFirestore(app);
+  storage = getStorage(app);
+}
+
+const fb = {
+  watchUser: (cb) => onAuthStateChanged(auth, cb),
+  async signIn() {
+    const provider = new GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: 'select_account' });
+    try {
+      await signInWithPopup(auth, provider);
+    } catch (e) {
+      if (['auth/popup-blocked', 'auth/operation-not-supported-in-this-environment'].includes(e.code)) return signInWithRedirect(auth, provider);
+      if (['auth/popup-closed-by-user', 'auth/cancelled-popup-request'].includes(e.code)) return;
+      throw e;
+    }
+  },
+  signOut: () => signOut(auth),
+  async isAdmin(uid) {
+    try { return (await getDoc(doc(db, 'admins', uid))).exists(); } catch { return false; }
+  },
+  watchResources(cb, onError) {
+    return onSnapshot(query(collection(db, 'resources'), orderBy('createdAt', 'desc'), limit(500)),
+      (snap) => cb(snap.docs.map((d) => ({ id: d.id, ...d.data() }))), onError);
+  },
+  watchReports(cb, onError) {
+    return onSnapshot(query(collection(db, 'reports'), orderBy('createdAt', 'desc'), limit(100)),
+      (snap) => cb(snap.docs.map((d) => ({ id: d.id, ...d.data() }))), onError);
+  },
+  addResource: (data) => addDoc(collection(db, 'resources'), { ...data, createdAt: serverTimestamp() }),
+  updateResource: (id, data) => updateDoc(doc(db, 'resources', id), { ...data, updatedAt: serverTimestamp() }),
+  deleteResource: (id) => deleteDoc(doc(db, 'resources', id)),
+  addReport: (data) => addDoc(collection(db, 'reports'), { ...data, createdAt: serverTimestamp() }),
+  deleteReport: (id) => deleteDoc(doc(db, 'reports', id)),
+  uploadFile(path, file, onProgress) {
+    return new Promise((resolve, reject) => {
+      const task = uploadBytesResumable(ref(storage, path), file, { contentType: file.type });
+      task.on('state_changed', (s) => onProgress?.(s.bytesTransferred / s.totalBytes), reject,
+        async () => resolve(await getDownloadURL(task.snapshot.ref)));
+    });
+  },
+  deleteFile: (path) => deleteObject(ref(storage, path)).catch(() => {}),
+  getIdToken: () => auth.currentUser?.getIdToken(),
+};
+
+// ===================== APP =====================
+
+// ---------- helpers ----------
+const $ = (s, r = document) => r.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const typeLabel = (k) => TYPES.find((t) => t.key === k)?.label || 'Other';
+const subjectName = (slug) => SUBJECTS.find((s) => s.slug === slug)?.name || slug || '—';
+const fmtSize = (b) => (!b ? '' : b < 1024 * 1024 ? `${Math.max(1, Math.round(b / 1024))} KB` : `${(b / 1024 / 1024).toFixed(1)} MB`);
+const fmtDate = (ts) => { const d = ts?.toDate?.(); return d ? d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) : ''; };
+const randomId = () => (crypto.randomUUID ? crypto.randomUUID() : [...crypto.getRandomValues(new Uint8Array(16))].map((b) => b.toString(16).padStart(2, '0')).join(''));
+const safeUrl = (u) => (/^https:\/\//i.test(u || '') ? u : '#');
+const getExt = (name) => (String(name).split('.').pop() || '').toLowerCase();
+const safeName = (n) => (String(n).split(/[\\/]/).pop().normalize('NFC').replace(/[^\p{L}\p{N} ._()\-]/gu, '_').replace(/^\.+/, '') || 'file').slice(-100);
+function toast(msg) {
+  const el = document.createElement('div'); el.textContent = msg; $('#toast').append(el); setTimeout(() => el.remove(), 4000);
+}
+
+const state = { user: null, admin: false, resources: [], loaded: false, error: '', reports: [], filters: {} };
+let unsubRes = null, unsubRep = null;
+
+// ---------- boot ----------
+if (!isConfigured) {
+  $('#nav').innerHTML = '';
+  $('#main').innerHTML = `<div class="card"><h1>Almost there — connect Firebase</h1>
+    <p>Open <code>js/config.js</code> and paste your Firebase web config, then reload. Steps are in the README.</p></div>`;
+} else {
+  fb.watchUser(async (user) => {
+    state.user = user; state.admin = false; unsubRes?.(); unsubRep?.(); state.resources = []; state.loaded = false; state.error = '';
+    if (user) {
+      state.admin = await fb.isAdmin(user.uid);
+      unsubRes = fb.watchResources((r) => { state.resources = r; state.loaded = true; state.error = ''; render(true); },
+        (e) => { state.error = e.code === 'permission-denied' ? 'You do not have permission to read resources. Check that the Firestore rules are published.' : 'Could not load resources. Check your connection and try again.'; state.loaded = true; render(); });
+      if (state.admin) unsubRep = fb.watchReports((r) => { state.reports = r; if (route().page === 'admin') render(true); }, () => {});
+    }
+    render();
+  });
+  window.addEventListener('hashchange', () => { $('#nav').classList.remove('open'); $('#menu').setAttribute('aria-expanded', 'false'); render(); window.scrollTo(0, 0); });
+  $('#menu').addEventListener('click', () => { const o = $('#nav').classList.toggle('open'); $('#menu').setAttribute('aria-expanded', String(o)); });
+}
+
+const route = () => { const [page = '', arg = ''] = location.hash.replace(/^#\//, '').split('/'); return { page, arg: decodeURIComponent(arg) }; };
+
+// ---------- shell ----------
+const NAV = [['', 'Home'], ['subjects', 'Subjects'], ['notes', 'Notes'], ['assignments', 'Assignments'], ['printable', 'Printable Answers'],
+  ['tutorials', 'Tutorials'], ['papers', 'Previous Papers'], ['exam', '⭐ Exam Important'], ['ask', 'Study Helper']];
+
+function renderNav(page) {
+  if (!state.user) { $('#nav').innerHTML = ''; return; }
+  const cur = (k) => (k === page || (k === 'subjects' && page === 'subject') ? ' aria-current="page"' : '');
+  $('#nav').innerHTML = NAV.map(([k, l]) => `<a href="#/${k}"${cur(k)}>${l}</a>`).join('')
+    + (state.admin ? `<a href="#/admin"${cur('admin')}>Admin</a>` : '')
+    + `<button type="button" data-act="signout">Sign out</button>`;
+}
+
+function render(soft = false) {
+  // Live updates must not wipe a form someone is typing in.
+  if (soft && document.activeElement?.closest?.('#main form')) return;
+  const { page, arg } = route();
+  renderNav(page);
+  const main = $('#main');
+  if (!state.user) return (main.innerHTML = signInView());
+  if (!state.loaded) return (main.innerHTML = '<p class="muted" role="status">Loading resources…</p>');
+  const views = { '': homeView, subjects: subjectsView, subject: () => subjectView(arg), notes: () => listView({ title: 'Handwritten Notes', types: ['notes'], intro: 'Notes organised by subject, unit and topic.' }),
+    assignments: () => listView({ title: 'Assignments', types: ['assignment'], intro: 'Assignment questions. Answer PDFs appear under each assignment when available.', showAnswers: true }),
+    printable: () => listView({ title: 'Printable Answers', print: true, intro: 'PDFs marked as ready to print. Use “Open to print” and print from your browser.' }),
+    tutorials: () => listView({ title: 'Tutorials', types: ['tutorial'], intro: 'Subject tutorials, including Mathematics.' }),
+    papers: () => listView({ title: 'Previous Papers', types: ['paper'], intro: 'Old question papers by subject, exam and year.' }),
+    exam: () => listView({ title: '⭐ Exam Important', exam: true, intro: 'Important topics and resources shared for exam time.' }),
+    ask: askView, admin: adminView };
+  main.innerHTML = (state.error ? `<div class="notice err" role="alert">${esc(state.error)}</div>` : '') + (views[page] || views[''])();
+  afterRender(page);
+}
+
+function signInView() {
+  return `<div class="card center"><h1>Welcome to Section A</h1>
+    <p class="muted">Sign in with your Google account to view and download study materials for ${esc(SITE.collegeName)}.</p>
+    <p><button class="btn primary" data-act="signin">Sign in with Google</button></p><p id="auth-msg" class="small" role="alert"></p></div>`;
+}
+
+// ---------- resource filtering + cards ----------
+function filterItems(preset, f) {
+  const words = (f.q || '').toLowerCase().split(/\s+/).filter(Boolean);
+  return state.resources.filter((r) => {
+    if (preset.types && !preset.types.includes(r.type)) return false;
+    if (preset.exam && !r.examImportant) return false;
+    if (preset.print && !r.printReady) return false;
+    if (preset.subject && r.subjectId !== preset.subject) return false;
+    if (f.subject && r.subjectId !== f.subject) return false;
+    if (f.type && r.type !== f.type) return false;
+    if (f.unit && r.unit !== f.unit) return false;
+    if (f.year && String(r.year) !== f.year) return false;
+    const hay = [r.title, r.description, r.unit, r.examLabel, (r.tags || []).join(' '), subjectName(r.subjectId)].join(' ').toLowerCase();
+    return words.every((w) => hay.includes(w));
+  });
+}
+
+function card(r, { showAnswers } = {}) {
+  const url = safeUrl(r.fileUrl);
+  const isPdf = r.fileExt === 'pdf', canPreview = ['pdf', 'png', 'jpg', 'jpeg', 'webp'].includes(r.fileExt);
+  const answers = showAnswers ? state.resources.filter((a) => a.type === 'answer' && a.relatedId === r.id) : [];
+  return `<article class="card res${r.examImportant ? ' exam' : ''}">
+    <div class="badges"><span class="badge">${esc(typeLabel(r.type))}</span>${r.examImportant ? '<span class="badge exam">⭐ Exam important</span>' : ''}${r.printReady ? '<span class="badge print">🖨 Print-ready</span>' : ''}</div>
+    <h3>${esc(r.title)}</h3>
+    <p class="meta">${esc(subjectName(r.subjectId))}${r.unit ? ' · ' + esc(r.unit) : ''}${r.year ? ' · ' + esc(r.year) : ''}${r.examLabel ? ' · ' + esc(r.examLabel) : ''}</p>
+    <p class="meta">${esc((r.fileExt || '').toUpperCase())}${r.fileSize ? ' · ' + fmtSize(r.fileSize) : ''}${fmtDate(r.createdAt) ? ' · Added ' + fmtDate(r.createdAt) : ''}</p>
+    ${r.description ? `<p>${esc(r.description)}</p>` : ''}
+    ${(r.tags || []).length ? `<p class="meta">Tags: ${r.tags.map(esc).join(', ')}</p>` : ''}
+    <div class="actions">
+      ${canPreview ? `<button class="btn sm" data-act="preview" data-id="${esc(r.id)}">Preview</button>` : ''}
+      <a class="btn sm primary" href="${esc(url)}" target="_blank" rel="noopener" download>Download</a>
+      ${r.printReady && isPdf ? `<a class="btn sm" href="${esc(url)}" target="_blank" rel="noopener">Open to print</a>` : ''}
+      <button class="btn sm" data-act="report" data-id="${esc(r.id)}">Report a problem</button>
+    </div>
+    ${answers.length ? `<p class="meta" style="margin-top:12px"><strong>Answers:</strong></p>${answers.map((a) => `<p class="meta"><a href="${esc(safeUrl(a.fileUrl))}" target="_blank" rel="noopener">${esc(a.title)}</a>${a.printReady ? ' 🖨 print-ready' : ''}</p>`).join('')}` : ''}
+  </article>`;
+}
+
+function filterBar(preset, f) {
+  const base = state.resources.filter((r) => (!preset.subject || r.subjectId === preset.subject));
+  const units = [...new Set(base.map((r) => r.unit).filter(Boolean))].sort();
+  const years = [...new Set(base.map((r) => r.year).filter(Boolean))].sort((a, b) => b - a);
+  const opt = (v, l, sel) => `<option value="${esc(v)}"${String(sel) === String(v) ? ' selected' : ''}>${esc(l)}</option>`;
+  return `<form class="filters" role="search" onsubmit="return false">
+    <div class="wide"><label for="f-q">Search</label><input id="f-q" type="search" data-filter="q" value="${esc(f.q || '')}" placeholder="Title, topic, tag…" autocomplete="off"></div>
+    ${preset.subject ? '' : `<div><label for="f-s">Subject</label><select id="f-s" data-filter="subject">${opt('', 'All subjects', f.subject)}${SUBJECTS.map((s) => opt(s.slug, s.name, f.subject)).join('')}</select></div>`}
+    ${preset.types && preset.types.length === 1 ? '' : `<div><label for="f-t">Type</label><select id="f-t" data-filter="type">${opt('', 'All types', f.type)}${TYPES.map((t) => opt(t.key, t.label, f.type)).join('')}</select></div>`}
+    <div><label for="f-u">Unit / topic</label><select id="f-u" data-filter="unit">${opt('', 'All units', f.unit)}${units.map((u) => opt(u, u, f.unit)).join('')}</select></div>
+    <div><label for="f-y">Year</label><select id="f-y" data-filter="year">${opt('', 'All years', f.year)}${years.map((y) => opt(y, y, f.year)).join('')}</select></div>
+  </form>`;
+}
+
+function listBody(preset, f) {
+  const items = filterItems(preset, f);
+  if (!state.resources.length) return `<div class="card empty"><h3>Nothing here yet</h3><p class="muted">No resources have been uploaded so far. Check back soon.</p></div>`;
+  if (!items.length) return `<div class="card empty"><h3>No matching resources</h3><p class="muted">Try different keywords or clear a filter.</p><button class="btn" data-act="clear">Clear filters</button></div>`;
+  return `<p class="muted small" role="status">${items.length} resource${items.length === 1 ? '' : 's'}</p><div class="grid cols">${items.map((r) => card(r, preset)).join('')}</div>`;
+}
+
+let currentPreset = null;
+function listView(preset) {
+  currentPreset = preset;
+  const key = route().page + ':' + route().arg; if (state.filters.key !== key) state.filters = { key };
+  return `<h1>${esc(preset.title)}</h1><p class="muted">${esc(preset.intro || '')}</p>${filterBar(preset, state.filters)}<div id="list">${listBody(preset, state.filters)}</div>`;
+}
+
+// ---------- pages ----------
+function homeView() {
+  const recent = state.resources.slice(0, 6), exam = state.resources.filter((r) => r.examImportant).slice(0, 4);
+  const links = [['notes', '✍️ Handwritten Notes'], ['assignments', '📝 Assignments'], ['printable', '🖨 Printable Answers'], ['tutorials', '🎓 Tutorials'], ['papers', '📄 Previous Papers'], ['exam', '⭐ Exam Important']];
+  return `<section class="hero"><h1>Welcome to Section A</h1><p class="muted">Notes, assignments, printable answers, tutorials and previous papers for our section at ${esc(SITE.collegeName)}.</p>
+    <p><a class="btn primary" href="#/subjects">Browse subjects</a> <a class="btn" href="#/ask">Study Helper</a></p></section>
+    <h2>Quick links</h2><div class="grid cols">${links.map(([k, l]) => `<a class="card link-card" href="#/${k}"><strong>${l}</strong></a>`).join('')}</div>
+    ${exam.length ? `<h2>⭐ Exam-time highlights</h2><div class="grid cols">${exam.map((r) => card(r)).join('')}</div>` : ''}
+    <h2>Recently added</h2>${recent.length ? `<div class="grid cols">${recent.map((r) => card(r)).join('')}</div>` : '<div class="card empty"><p class="muted">No resources yet.</p></div>'}`;
+}
+
+function subjectsView() {
+  return `<h1>Subjects</h1><div class="grid cols">${SUBJECTS.map((s) => { const n = state.resources.filter((r) => r.subjectId === s.slug).length;
+    return `<a class="card link-card" href="#/subject/${encodeURIComponent(s.slug)}"><strong>${s.math ? '➗ ' : ''}${esc(s.name)}</strong><span class="muted small">${n} resource${n === 1 ? '' : 's'}</span></a>`; }).join('')}</div>`;
+}
+
+function subjectView(slug) {
+  const s = SUBJECTS.find((x) => x.slug === slug);
+  if (!s) return `<div class="card empty"><h1>Subject not found</h1><a class="btn" href="#/subjects">All subjects</a></div>`;
+  currentPreset = { title: s.name, subject: slug, grouped: true };
+  const key = 'subject:' + slug; if (state.filters.key !== key) state.filters = { key };
+  return `<p><a href="#/subjects">← All subjects</a></p><h1>${esc(s.name)}</h1>${s.math ? '<p class="muted">Includes the Mathematics tutorials area.</p>' : ''}${filterBar(currentPreset, state.filters)}<div id="list">${groupedBody(currentPreset, state.filters)}</div>`;
+}
+function groupedBody(preset, f) {
+  const items = filterItems(preset, f);
+  if (!items.length) return listBody(preset, f);
+  return TYPES.map((t) => { const g = items.filter((r) => r.type === t.key); return g.length ? `<h2>${esc(t.label)}</h2><div class="grid cols">${g.map((r) => card(r, { showAnswers: true })).join('')}</div>` : ''; }).join('');
+}
+
+// ---------- Study helper ----------
+let askResult = null;
+function askView() {
+  const aiOn = Boolean(SITE.aiEndpoint);
+  return `<h1>Study Helper</h1><p class="muted">Ask a question and get pointed to the resources on this site that cover it.</p>
+    ${aiOn ? '' : '<div class="notice" role="note"><strong>AI not connected (demo mode).</strong> You will see the best-matching resources only, not a written answer. The site admin can connect an AI service — see the README.</div>'}
+    <form class="card" id="ask-form"><label for="a-s">Subject</label><select id="a-s"><option value="">All subjects</option>${SUBJECTS.map((s) => `<option value="${esc(s.slug)}">${esc(s.name)}</option>`).join('')}</select>
+    <label for="a-q" style="margin-top:12px">Your question</label><textarea id="a-q" maxlength="500" required placeholder="e.g. Where can I find Unit 2 notes?"></textarea>
+    <p><button class="btn primary" type="submit">Ask</button></p></form><div id="ask-out" aria-live="polite">${askResult || ''}</div>`;
+}
+const STOP = new Set('a an and are as at be by can do for from how i in is it me my of on or the this to what where which who why with you your about'.split(' '));
+function localMatches(q, subject) {
+  const terms = q.toLowerCase().split(/[^a-z0-9]+/).filter((t) => t.length > 1 && !STOP.has(t));
+  return state.resources.filter((r) => !subject || r.subjectId === subject).map((r) => {
+    const hay = [r.title, r.description, r.unit, (r.tags || []).join(' ')].join(' ').toLowerCase();
+    return { r, score: terms.reduce((n, t) => n + (hay.includes(t) ? 1 : 0), 0) };
+  }).filter((x) => x.score > 0).sort((a, b) => b.score - a.score).slice(0, 5).map((x) => x.r);
+}
+async function onAsk(e) {
+  e.preventDefault();
+  const q = $('#a-q').value.trim(), subject = $('#a-s').value, out = $('#ask-out'), btn = e.target.querySelector('button');
+  if (q.length < 3) return;
+  const matches = localMatches(q, subject);
+  const links = matches.map((r) => `<li><a href="${esc(safeUrl(r.fileUrl))}" target="_blank" rel="noopener">${esc(r.title)}</a> <span class="muted small">(${esc(subjectName(r.subjectId))}, ${esc(typeLabel(r.type))})</span></li>`).join('');
+  if (!matches.length) { askResult = `<div class="card"><p>I couldn’t find anything on Section A that covers this, so I can’t answer it confidently. Try other keywords or another subject.</p></div>`; out.innerHTML = askResult; return; }
+  if (!SITE.aiEndpoint) { askResult = `<div class="card"><h3>Best matching resources</h3><ul>${links}</ul><p class="muted small">Demo mode: no written answer is generated.</p></div>`; out.innerHTML = askResult; return; }
+  btn.disabled = true; out.innerHTML = '<p class="muted" role="status">Thinking…</p>';
+  try {
+    const res = await fetch(SITE.aiEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${await fb.getIdToken()}` },
+      body: JSON.stringify({ question: q, subject, resources: matches.map((r) => ({ id: r.id, title: r.title, description: r.description || '', unit: r.unit || '', tags: r.tags || [] })) }) });
+    if (!res.ok) throw new Error(String(res.status));
+    const data = await res.json();
+    const cited = matches.filter((r) => (data.sources || []).includes(r.id));
+    askResult = `<div class="card"><p>${esc(data.answer || 'No answer returned.').replace(/\n/g, '<br>')}</p>${cited.length ? `<p class="meta">Sources:</p><ul>${cited.map((r) => `<li>${esc(r.title)}</li>`).join('')}</ul>` : ''}<p class="meta">Related:</p><ul>${links}</ul></div>`;
+  } catch { askResult = `<div class="notice err" role="alert">The AI service could not be reached. Please try again later.</div><div class="card"><h3>Matching resources</h3><ul>${links}</ul></div>`; }
+  out.innerHTML = askResult; btn.disabled = false;
+}
+
+// ---------- admin ----------
+let editing = null;
+function adminView() {
+  if (!state.admin) return `<div class="card center"><h1>Admins only</h1><p class="muted">This area is only for Section A admins. If you should have access, send your account ID to the site owner:</p><p><code>${esc(state.user.uid)}</code></p></div>`;
+  const e = editing || {};
+  const opt = (arr, sel, ph) => `${ph ? `<option value="">${ph}</option>` : ''}${arr.map(([v, l]) => `<option value="${esc(v)}"${sel === v ? ' selected' : ''}>${esc(l)}</option>`).join('')}`;
+  const assignments = state.resources.filter((r) => r.type === 'assignment');
+  return `<h1>Admin dashboard</h1><p class="muted">Signed in as ${esc(state.user.email)}. Only admins see this page; Firebase rules enforce it on the server.</p>
+  <form class="card" id="res-form" novalidate><h2 style="margin-top:0">${e.id ? 'Edit resource' : 'Add a resource'}</h2>
+    <div class="filters">
+      <div class="wide"><label for="r-title">Title *</label><input id="r-title" type="text" maxlength="200" required value="${esc(e.title)}"></div>
+      <div class="wide"><label for="r-desc">Description</label><textarea id="r-desc" maxlength="2000">${esc(e.description)}</textarea></div>
+      <div><label for="r-subj">Subject *</label><select id="r-subj">${opt(SUBJECTS.map((s) => [s.slug, s.name]), e.subjectId, 'Choose…')}</select></div>
+      <div><label for="r-type">Type *</label><select id="r-type">${opt(TYPES.map((t) => [t.key, t.label]), e.type, 'Choose…')}</select></div>
+      <div><label for="r-unit">Unit / topic</label><input id="r-unit" type="text" maxlength="100" value="${esc(e.unit)}" placeholder="Unit 1"></div>
+      <div><label for="r-year">Year</label><input id="r-year" type="number" min="1990" max="${new Date().getFullYear() + 1}" value="${esc(e.year)}"></div>
+      <div><label for="r-exam">Exam name (papers)</label><input id="r-exam" type="text" maxlength="60" value="${esc(e.examLabel)}"></div>
+      <div id="rel-wrap"><label for="r-rel">Linked assignment (for answers)</label><select id="r-rel">${opt(assignments.map((a) => [a.id, a.title]), e.relatedId, 'None')}</select></div>
+      <div class="wide"><label for="r-tags">Tags (comma separated)</label><input id="r-tags" type="text" value="${esc((e.tags || []).join(', '))}"></div>
+      <label class="check"><input id="r-important" type="checkbox"${e.examImportant ? ' checked' : ''}> Exam important</label>
+      <label class="check"><input id="r-print" type="checkbox"${e.printReady ? ' checked' : ''}> Print-ready (PDF only)</label>
+      <div class="wide"><label for="r-file">${e.id ? 'Replace file (optional)' : 'File *'} — ${Object.keys(FILE_TYPES).join(', ')}; max ${SITE.maxUploadMb} MB</label><input id="r-file" type="file" accept="${Object.keys(FILE_TYPES).map((x) => '.' + x).join(',')}"></div>
+    </div>
+    <div class="progress" id="r-prog" hidden><i></i></div><p id="r-msg" role="alert" class="small"></p>
+    <button class="btn primary" type="submit" id="r-save">${e.id ? 'Save changes' : 'Upload'}</button>
+    ${e.id ? '<button class="btn" type="button" data-act="cancel-edit">Cancel</button>' : ''}</form>
+  <h2>Resources (${state.resources.length})</h2><div class="table">${state.resources.map((r) => `<div class="trow"><div class="t"><strong>${esc(r.title)}</strong><div class="meta">${esc(typeLabel(r.type))} · ${esc(subjectName(r.subjectId))}${r.examImportant ? ' · ⭐' : ''}${r.printReady ? ' · 🖨' : ''}</div></div>
+    <div class="actions" style="margin:0"><button class="btn sm" data-act="edit" data-id="${esc(r.id)}">Edit</button><button class="btn sm danger" data-act="delete" data-id="${esc(r.id)}">Delete</button></div></div>`).join('') || '<p class="muted">Nothing uploaded yet.</p>'}</div>
+  <h2>Problem reports (${state.reports.length})</h2><div class="table">${state.reports.map((p) => `<div class="trow"><div class="t"><strong>${esc(p.resourceTitle)}</strong><div class="meta">${esc(p.message)}</div></div><button class="btn sm" data-act="del-report" data-id="${esc(p.id)}">Dismiss</button></div>`).join('') || '<p class="muted">No reports.</p>'}</div>`;
+}
+
+async function onSave(e) {
+  e.preventDefault();
+  const msg = $('#r-msg'), btn = $('#r-save'), prog = $('#r-prog'), v = (id) => $(id).value.trim();
+  const fail = (t) => { msg.textContent = t; msg.className = 'small notice err'; };
+  msg.textContent = ''; msg.className = 'small';
+  const old = editing || {}, file = $('#r-file').files[0];
+  const title = v('#r-title'), type = $('#r-type').value, year = v('#r-year');
+  if (title.length < 3) return fail('Title must be at least 3 characters.');
+  if (!$('#r-subj').value) return fail('Please choose a subject.');
+  if (!type) return fail('Please choose a resource type.');
+  if (type === 'paper' && !year) return fail('Previous papers need a year.');
+  if (!old.id && !file) return fail('Please choose a file to upload.');
+  let ext = old.fileExt;
+  if (file) {
+    ext = getExt(file.name);
+    if (!FILE_TYPES[ext]) return fail(`Unsupported file type. Allowed: ${Object.keys(FILE_TYPES).join(', ')}.`);
+    if (file.size === 0) return fail('That file is empty.');
+    if (file.size > SITE.maxUploadMb * 1024 * 1024) return fail(`File is larger than ${SITE.maxUploadMb} MB.`);
+    file.__type = FILE_TYPES[ext];
+  }
+  if ($('#r-print').checked && ext !== 'pdf') return fail('Only PDF files can be marked print-ready.');
+  const tags = [...new Set(v('#r-tags').split(',').map((t) => t.trim().toLowerCase()).filter(Boolean))].slice(0, 10);
+  const data = { title, description: v('#r-desc'), subjectId: $('#r-subj').value, type, unit: v('#r-unit'), year: year ? Number(year) : null,
+    examLabel: v('#r-exam'), tags, examImportant: $('#r-important').checked, printReady: $('#r-print').checked, relatedId: type === 'answer' ? $('#r-rel').value || null : null };
+  btn.disabled = true;
+  try {
+    if (file) {
+      prog.hidden = false;
+      const path = `resources/${randomId()}/${safeName(file.name)}`;
+      const blob = file.type === file.__type ? file : new File([file], file.name, { type: file.__type });
+      data.fileUrl = await fb.uploadFile(path, blob, (p) => { prog.firstElementChild.style.width = Math.round(p * 100) + '%'; });
+      Object.assign(data, { storagePath: path, fileName: safeName(file.name), fileExt: ext, fileSize: file.size });
+    }
+    if (old.id) { await fb.updateResource(old.id, data); if (file && old.storagePath) fb.deleteFile(old.storagePath); }
+    else await fb.addResource({ ...data, createdBy: state.user.uid });
+    toast(old.id ? 'Changes saved.' : 'Uploaded.'); editing = null; render();
+  } catch (err) {
+    fail(err.code === 'permission-denied' || err.code === 'storage/unauthorized' ? 'Permission denied — your account is not an admin or the rules are not published.' : 'Upload failed. Check your connection and try again.');
+    btn.disabled = false;
+  }
+}
+
+// ---------- dialogs ----------
+function openDialog(html) { const d = $('#dlg'); d.innerHTML = html + '<p><button class="btn" data-act="close">Close</button></p>'; d.showModal(); return d; }
+function preview(id) {
+  const r = state.resources.find((x) => x.id === id); if (!r) return;
+  const url = esc(safeUrl(r.fileUrl));
+  openDialog(`<h2 style="margin-top:0">${esc(r.title)}</h2>${r.fileExt === 'pdf' ? `<iframe class="preview" src="${url}" title="${esc(r.title)}"></iframe>` : `<img class="preview" src="${url}" alt="${esc(r.title)}">`}
+    <p class="small muted">Preview not showing? <a href="${url}" target="_blank" rel="noopener">Open the file in a new tab</a>.</p>`);
+}
+function reportDialog(id) {
+  const r = state.resources.find((x) => x.id === id); if (!r) return;
+  const d = openDialog(`<h2 style="margin-top:0">Report a problem</h2><p class="muted small">${esc(r.title)}</p><form id="rep-form"><label for="rep-m">What’s wrong? (5–500 characters)</label><textarea id="rep-m" maxlength="500" required></textarea><p id="rep-e" role="alert" class="small"></p><button class="btn primary" type="submit">Send report</button></form>`);
+  d.querySelector('#rep-form').onsubmit = async (ev) => {
+    ev.preventDefault(); const m = d.querySelector('#rep-m').value.trim(), err = d.querySelector('#rep-e');
+    if (m.length < 5) { err.textContent = 'Please write at least 5 characters.'; return; }
+    try { await fb.addReport({ resourceId: id, resourceTitle: r.title, message: m, uid: state.user.uid }); d.close(); toast('Thanks — an admin will take a look.'); }
+    catch { err.textContent = 'Could not send the report. Try again later.'; }
+  };
+}
+
+// ---------- events ----------
+function afterRender(page) {
+  if (page === 'ask') $('#ask-form')?.addEventListener('submit', onAsk);
+  if (page === 'admin' && state.admin) {
+    $('#res-form')?.addEventListener('submit', onSave);
+    const sync = () => { $('#rel-wrap').hidden = $('#r-type').value !== 'answer'; }; $('#r-type')?.addEventListener('change', sync); if ($('#r-type')) sync();
+  }
+}
+document.addEventListener('click', async (e) => {
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const { act, id } = b.dataset;
+  if (act === 'signin') { try { await fb.signIn(); } catch (err) { const m = $('#auth-msg'); if (m) m.textContent = 'Sign-in failed (' + (err.code || err.message) + '). ' + (err.code === 'auth/unauthorized-domain' ? 'Add ' + location.hostname + ' under Firebase > Authentication > Settings > Authorized domains.' : err.code === 'auth/operation-not-allowed' ? 'Enable Google in Firebase > Authentication > Sign-in method.' : 'Check your config values in index.html.'); } }
+  else if (act === 'signout') { await fb.signOut(); location.hash = '#/'; }
+  else if (act === 'preview') preview(id);
+  else if (act === 'report') reportDialog(id);
+  else if (act === 'close') $('#dlg').close();
+  else if (act === 'clear') { state.filters = { key: state.filters.key }; render(); }
+  else if (act === 'edit' && state.admin) { editing = state.resources.find((r) => r.id === id) || null; render(); window.scrollTo(0, 0); }
+  else if (act === 'cancel-edit') { editing = null; render(); }
+  else if (act === 'delete' && state.admin) {
+    const r = state.resources.find((x) => x.id === id);
+    if (r && confirm(`Delete “${r.title}”? This cannot be undone.`)) {
+      try { await fb.deleteResource(id); if (r.storagePath) fb.deleteFile(r.storagePath); toast('Deleted.'); } catch { toast('Delete failed — permission denied or offline.'); }
+    }
+  } else if (act === 'del-report' && state.admin) { try { await fb.deleteReport(id); } catch { toast('Could not dismiss report.'); } }
+});
+document.addEventListener('input', (e) => {
+  const k = e.target.dataset?.filter; if (!k) return;
+  state.filters[k] = e.target.value;
+  const preset = currentPreset; if (!preset) return;
+  $('#list').innerHTML = preset.grouped ? groupedBody(preset, state.filters) : listBody(preset, state.filters);
+});
+
+</script>
+</body>
+</html>
